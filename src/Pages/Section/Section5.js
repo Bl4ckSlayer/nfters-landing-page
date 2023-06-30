@@ -9,7 +9,7 @@ const Section5 = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 container justify-start flex-col lg:flex-row  mx-auto gap-36  lg:gap-10   mt-16 ">
       {" "}
-      <div className="grid grid-cols-2 gap-6 justify-start ">
+      <div className="grid grid-cols-2 gap-6 justify-start lg:mb-0 mb-36">
         <div className="     ">
           <div className="indicator w-11/12 mb-20">
             <div className="indicator-item indicator-bottom">

@@ -10,7 +10,7 @@ const Section3 = () => {
   return (
     <div className=" mx-auto  mt-20  mb-24 ">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-0 md:gap-0  container mx-auto  ">
-        <div className=" relative group  mx-auto">
+        <div className="mb-20 relative group  mx-auto">
           <div className="  rounded-md   group-hover:opacity-75  mx-auto ">
             <img
               src={Ban1}
@@ -42,10 +42,10 @@ const Section3 = () => {
           </div>
         </div>
 
-        <div className="flex flex-col  gap-4 w-full items-center ">
+        <div className="flex flex-col  gap-4 w-full items-center mb-20">
           <SubSection3of1></SubSection3of1>
         </div>
-        <div className="mx-auto flex flex-col  w-96 items-center gap-8 border-l-2">
+        <div className="mx-auto flex flex-col  w-96 items-center mb-20 gap-8 border-l-2">
           <SubSection3of2></SubSection3of2>
         </div>
       </div>
