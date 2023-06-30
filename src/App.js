@@ -12,16 +12,18 @@ function App() {
     <div>
       <Navbar></Navbar>
 
-      <Section1></Section1>
+      <div className="p-4 lg:p-0 md:p-0">
+        <Section1></Section1>
 
-      <Section2></Section2>
-      <Section3></Section3>
-      <Section4></Section4>
-      <div className="p-2">
-        <Section5></Section5>
+        <Section2></Section2>
+        <Section3></Section3>
+        <Section4></Section4>
+        <div className="p-2">
+          <Section5></Section5>
+        </div>
+        <Section6></Section6>
+        <Footer></Footer>
       </div>
-      <Section6></Section6>
-      <Footer></Footer>
     </div>
   );
 }

@@ -26,7 +26,7 @@ const Section1 = () => {
           <div className="relative">
             <img
               src={Dot}
-              className="hidden lg:block  -left-14 absolute z-10"
+              className="hidden lg:block md:block -left-14 absolute z-10"
               alt=""
             />{" "}
             <button className="btn absolute rounded-full  top-0 left-6 btn-primary w-44 z-40">
@@ -58,7 +58,7 @@ const Section1 = () => {
       <div className="flex   mx-auto lg:-space-x-80  s -space-x-56   justify-center ">
         <div className="z-40 relative   ">
           <img
-            className=" absolute bottom-24  -left-16  inline-block"
+            className=" absolute bottom-24 hidden  -left-16 md:inline-block  lg:inline-block"
             src={Dot1}
             alt=""
           />
@@ -66,7 +66,7 @@ const Section1 = () => {
             <h1 className=" text-2xl font-medium ">Abstr Gradient NFT</h1>
             <div className="">
               <img
-                className="inline  mr-2 h-6 w-6 rounded-full  "
+                className="inline  mr-2 h-6 w-6 rounded-full   "
                 src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                 alt=""
               />
